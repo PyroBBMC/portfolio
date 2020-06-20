@@ -1,190 +1,189 @@
 /* Document Reset */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Global Styling */
 body {
-    font-family: 'Playfair Display', serif;
-    /* font-family: 'Satisfy', cursive; */
-    /* font-family: 'Kaushan Script', cursive; */
-    
+  font-family: "Playfair Display", serif;
+  /* font-family: 'Satisfy', cursive; */
+  /* font-family: 'Kaushan Script', cursive; */
 }
 
 .container {
-    background: #fff;
-    cursor: pointer;
+  background: #fff;
+  cursor: pointer;
 }
 
 .showcase {
-    height: 100vh;
-    background: url("/img/markus-spiske-uPXs5Vx5bIg-unsplash.jpg") no-repeat center center/cover;
+  height: 100vh;
+  background: url("/img/markus-spiske-uPXs5Vx5bIg-unsplash.jpg") no-repeat
+    center center/cover;
 }
 
 /* showcase */
-.showcase h1{
-    font-size: 65px;
-    color: #ffffff56;
-    text-align: center;
-    padding-top: 20px;
+.showcase h1 {
+  font-size: 65px;
+  color: #ffffff56;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .showcase hr {
-    display: block; 
-    height: 1px;
-    border: 0; 
-    border-top: 1px solid #696969;
-    margin: 0 0; 
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #696969;
+  margin: 0 0;
+  padding: 0;
 }
 
 .anouncement {
-    width: 400px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-bottom: 20px;
-    padding-right: 20px;
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 100px;
+  padding-right: 20px;
 }
 
-.anouncement h2{
-    width: auto;
-    color: #696969;
-    font-size: 45px;
-    text-align: center;
-    padding-right: 30px;
-    padding-bottom: 10px;
+.anouncement h2 {
+  width: auto;
+  color: #696969;
+  font-size: 45px;
+  text-align: center;
+  padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 .anouncement a {
-    text-decoration: none;
-    text-align: center;
-    color: #7d34c2;
+  text-decoration: none;
+  text-align: center;
+  color: #7d34c2;
 }
 
 .anouncement hr {
-    margin: 10px;
+  margin: 10px;
 }
 
 /* NavBar */
 
 .main-nav {
-    display: flex;
-    align-items: center;
-    padding-left: 20px;
-    justify-content: space-between;
-    height: 60px;
-    font-size: 13px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  justify-content: space-between;
+  height: 60px;
+  font-size: 13px;
 }
 
 .main-nav a {
-    text-decoration: none;
-    padding-bottom: 2px;
+  text-decoration: none;
+  padding-bottom: 2px;
 }
 
 .main-nav .logo {
-    font-size: 30px;
-    color: #7d34c2;
+  font-size: 30px;
+  color: #7d34c2;
 }
 
-.main-nav ul {  
-    display: flex;
-    list-style: none;
+.main-nav ul {
+  display: flex;
+  list-style: none;
 }
 
 .main-nav ul li {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .main-nav ul li a {
-    color: #ffffff56;
+  color: #ffffff56;
 }
 
-.main-nav ul li a:hover{
-    border-bottom: 2px solid #696969;
+.main-nav ul li a:hover {
+  border-bottom: 2px solid #696969;
 }
 
 .main-nav ul.main-menu {
-    flex: 1;
-    margin-left: 20px;
+  flex: 1;
+  margin-left: 20px;
 }
 
 #contact-form {
-    visibility: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: auto;
-    padding: 20px;
-    transform: translate(-50% , -50%);
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 3px;
-    cursor: pointer;
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 #contact-form input {
-    background: transparent;
-    color:#fff;
-    width: 100%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    padding: 8px 15px;
-    border: 0;
-    border: 1px solid #696969;
-    border-radius: 3px;
+  background: transparent;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 8px 15px;
+  border: 0;
+  border: 1px solid #696969;
+  border-radius: 3px;
 }
 
 #contact-form h2 {
-    text-align: center;
-    font-size: 2em;
-    line-height: 1.25em;
-    color: #fff;
-    padding-bottom: 5px;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.25em;
+  color: #fff;
+  padding-bottom: 5px;
 }
 
 #contact-form label {
-    display: block;
-    font-size: 1em;
-    color: #fff;
-    text-transform: capitalize;
-    padding-top: 1rem;
+  display: block;
+  font-size: 1em;
+  color: #fff;
+  text-transform: capitalize;
+  padding-top: 1rem;
 }
 
 #contact-form textarea {
-    display: block;
-    color: #fff;
-    background: transparent;
-    border: 0;
-    border: 1px solid #696969;
-    border-radius: 3px;
-    width: 100%;
-    height: 200px;
-    margin-top: 10px 5px 10px 5px;
-    padding: 3px;
+  display: block;
+  color: #fff;
+  background: transparent;
+  border: 0;
+  border: 1px solid #696969;
+  border-radius: 3px;
+  width: 100%;
+  height: 200px;
+  margin-top: 10px 5px 10px 5px;
+  padding: 3px;
 }
 
 .btn {
-    margin: 10px 30px;
-    text-transform: uppercase;
-    background: #696969;
-    text-align: center;
-    border-radius: 5px;
-    letter-spacing: 1px;
-
+  margin: 10px 30px;
+  text-transform: uppercase;
+  background: #696969;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 1px;
 }
 
 .close {
-    position: absolute;
-    background: #696969;
-    color: white;
-    top: -20px;
-    right: -20px;
-    width: 40px;
-    height:40px;
-    border: none;
-    border-radius: 50%;
+  position: absolute;
+  background: #696969;
+  color: white;
+  top: -20px;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
 }
