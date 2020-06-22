@@ -126,6 +126,7 @@ body {
 }
 
 #contact-form input {
+  display: block;
   background: transparent;
   color: #fff;
   width: 100%;
